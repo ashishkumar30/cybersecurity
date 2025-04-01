@@ -91,12 +91,12 @@ The **`upload_data.py`** script allows you to insert bulk log data into the data
    **Example of CSV file format
 ## Applications Overview
 
-### 1. **Log_ingestor**: 
+### 1. **SERVICE Log_ingestor**: 
 This module handles the ingestion of raw log data, providing APIs to retrieve and insert logs.
 
 #### API Endpoints:
 
-- **GET /api/logs**: Retrieve all logs.
+- **1. GET  http://127.0.0.1:8000/api/logs**: Retrieve all logs.
     ```json
     [
         {
@@ -120,7 +120,7 @@ This module handles the ingestion of raw log data, providing APIs to retrieve an
     ]
     ```
 
-- **POST /api/logs**: Insert a log into the system.
+- **2. POST  http://127.0.0.1:8000/api/logs**: Insert a log into the system.
     **Request**:
     ```json
     {
@@ -145,7 +145,7 @@ This module handles the ingestion of raw log data, providing APIs to retrieve an
     }
     ```
 
-- **GET /api/logs/{id}**: Retrieve a log by ID (e.g., `/api/logs/5`).
+- **3. GET http://localhost:8000/api/logs/5**: Retrieve a log by ID (e.g., `/api/logs/5`).
     **Response**:
     ```json
     {
@@ -159,7 +159,7 @@ This module handles the ingestion of raw log data, providing APIs to retrieve an
     }
     ```
 
-- **POST /api/logs/search**: Search for logs based on parameters.
+- **4. POST http://localhost:8000/api/logs/search**: Search for logs based on parameters.
     **Request**:
     ```json
     {
@@ -202,12 +202,12 @@ This module handles the ingestion of raw log data, providing APIs to retrieve an
     ]
     ```
 
-### 2. **Threat_analyzer**: 
+### 2. **SERVICE Threat_analyzer**: 
 This module analyzes logs to detect potential cybersecurity threats.
 
 #### API Endpoints:
 
-- **POST /api/threats**: Detect threats from uploaded log file.
+- **1. POST http://localhost:8000/api/threats**: Detect threats from uploaded log file.
     **Request**: Upload a CSV file containing log data.
 
     **Response**:
@@ -238,7 +238,36 @@ This module analyzes logs to detect potential cybersecurity threats.
     }
     ```
 
-- **GET /api/threats/{id}**: Retrieve a threat by ID.
+- **2. POST http://localhost:8000/api/threats**: Detect threats from uploaded log file.
+    **Request**: Upload a CSV file containing log data.
+
+    **Response**:
+    ```json
+    {
+    "message": "Threats detected",
+    "Total no of Threats detected": 109,
+    "threats": {
+        "1d871349-1cfc-40bb-974f-862ec3530339": {
+            "timestamp": "2025-03-26T00:04:00",
+            "user_id": "employee7",
+            "ip_address": "192.168.1.10",
+            "action": "file_access",
+            "file_name": "/confidential/design.pdf",
+            "threat_type": "InsiderThreat",
+            "severity": "Medium"
+        },
+        "111b3754-1703-4068-95db-779bec3e0a94": {
+            "timestamp": "2025-03-26T00:07:00",
+            "user_id": "root",
+            "ip_address": "192.168.1.10",
+            "action": "file_access",
+            "file_name": null,
+            "threat_type": "InsiderThreat",
+            "severity": "Medium"
+        },
+    }
+    ```
+- **3. GET http://localhost:8000/api/threats/6**: Retrieve all threats.
     **Response**:
     ```json
     {
@@ -253,7 +282,7 @@ This module analyzes logs to detect potential cybersecurity threats.
     }
     ```
 
-- **POST /api/threats/search**: Search for threats based on parameters.
+- **4. POST /api/threats/search**: Search for threats based on parameters.
     **Request**:
     ```json
     {
