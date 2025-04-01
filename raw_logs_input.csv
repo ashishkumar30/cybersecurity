@@ -1,0 +1,1001 @@
+timestamp,user_id,ip_address,action,file_name,database_query
+2025-03-26 03:26:00,admin42,192.168.1.20,database_query,,
+2025-03-26 12:52:00,guest99,192.168.1.20,network_request,/confidential/design.pdf,
+2025-03-26 16:56:00,admin42,192.168.1.20,network_request,,
+2025-03-26 11:42:00,admin42,10.0.0.5,file_access,,
+2025-03-26 11:03:00,admin42,8.8.8.8,file_access,/secure/payroll.csv,DROP TABLE transactions;
+2025-03-26 04:49:00,user123,172.16.0.8,login_success,,
+2025-03-26 06:16:00,user123,192.168.1.20,database_query,/confidential/design.pdf,
+2025-03-26 12:57:00,admin42,172.16.0.8,login_failed,/db_dump.sql,
+2025-03-26 02:45:00,admin42,192.168.1.10,login_success,/secure/payroll.csv,DROP TABLE transactions;
+2025-03-26 22:19:00,employee7,192.168.1.20,network_request,/public/readme.txt,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 10:42:00,user123,10.0.0.5,login_failed,,
+2025-03-26 22:38:00,admin42,10.0.0.5,login_success,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 12:45:00,root,8.8.8.8,login_success,,DROP TABLE transactions;
+2025-03-26 11:02:00,admin42,8.8.8.8,login_failed,,SELECT * FROM users;
+2025-03-26 09:50:00,root,192.168.1.20,network_request,/logs/system.log,
+2025-03-26 14:58:00,root,8.8.8.8,network_request,,
+2025-03-26 06:19:00,guest99,10.0.0.5,file_access,,
+2025-03-26 21:11:00,employee7,10.0.0.5,login_success,/logs/system.log,
+2025-03-26 04:51:00,admin42,192.168.1.10,database_query,,
+2025-03-26 10:18:00,root,192.168.1.20,login_success,,
+2025-03-26 11:51:00,admin42,192.168.1.10,login_success,/public/readme.txt,SELECT * FROM users;
+2025-03-26 16:03:00,root,8.8.8.8,login_success,,
+2025-03-26 05:14:00,employee7,10.0.0.5,login_failed,,
+2025-03-26 11:13:00,user123,192.168.1.20,login_success,/public/readme.txt,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 11:10:00,root,192.168.1.10,file_access,,
+2025-03-26 04:00:00,employee7,192.168.1.10,network_request,,
+2025-03-26 22:45:00,user123,10.0.0.5,login_success,/logs/system.log,
+2025-03-26 11:48:00,admin42,192.168.1.20,database_query,/logs/system.log,
+2025-03-26 20:13:00,guest99,10.0.0.5,file_access,/confidential/design.pdf,DROP TABLE transactions;
+2025-03-26 15:17:00,guest99,192.168.1.20,database_query,,
+2025-03-26 02:45:00,employee7,10.0.0.5,file_access,,DROP TABLE transactions;
+2025-03-26 00:26:00,guest99,192.168.1.10,database_query,,
+2025-03-26 20:35:00,root,10.0.0.5,database_query,/secure/payroll.csv,
+2025-03-26 11:53:00,user123,192.168.1.20,login_failed,,
+2025-03-26 23:41:00,admin42,172.16.0.8,database_query,,
+2025-03-26 07:17:00,user123,172.16.0.8,login_success,,SELECT * FROM users;
+2025-03-26 06:38:00,admin42,172.16.0.8,database_query,/public/readme.txt,
+2025-03-26 16:06:00,employee7,192.168.1.20,database_query,,
+2025-03-26 08:16:00,user123,10.0.0.5,login_success,/db_dump.sql,
+2025-03-26 20:50:00,user123,8.8.8.8,login_failed,/public/readme.txt,
+2025-03-26 16:08:00,admin42,8.8.8.8,network_request,,
+2025-03-26 18:15:00,admin42,192.168.1.10,network_request,,
+2025-03-26 23:23:00,guest99,10.0.0.5,database_query,/db_dump.sql,SELECT * FROM users;
+2025-03-26 05:32:00,guest99,10.0.0.5,login_success,,
+2025-03-26 11:32:00,guest99,8.8.8.8,login_success,/public/readme.txt,SELECT * FROM users;
+2025-03-26 00:22:00,root,172.16.0.8,login_success,,
+2025-03-26 17:58:00,user123,192.168.1.10,file_access,/logs/system.log,
+2025-03-26 02:57:00,admin42,8.8.8.8,network_request,,
+2025-03-26 06:52:00,user123,10.0.0.5,login_failed,/confidential/design.pdf,
+2025-03-26 10:56:00,employee7,10.0.0.5,login_failed,/db_dump.sql,SELECT * FROM users;
+2025-03-26 19:08:00,guest99,192.168.1.10,file_access,/secure/payroll.csv,
+2025-03-26 23:14:00,employee7,8.8.8.8,file_access,,
+2025-03-26 08:35:00,user123,8.8.8.8,login_success,,SELECT * FROM users;
+2025-03-26 18:10:00,user123,192.168.1.10,file_access,/secure/payroll.csv,
+2025-03-26 18:14:00,root,8.8.8.8,login_success,/confidential/design.pdf,
+2025-03-26 06:41:00,employee7,10.0.0.5,file_access,/secure/payroll.csv,
+2025-03-26 06:19:00,guest99,192.168.1.20,login_failed,/public/readme.txt,
+2025-03-26 12:52:00,root,8.8.8.8,network_request,/logs/system.log,
+2025-03-26 14:09:00,guest99,192.168.1.10,login_success,,
+2025-03-26 16:53:00,admin42,8.8.8.8,network_request,,
+2025-03-26 19:39:00,admin42,192.168.1.10,file_access,/public/readme.txt,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 03:46:00,guest99,192.168.1.10,login_failed,/public/readme.txt,
+2025-03-26 05:05:00,root,10.0.0.5,login_failed,,
+2025-03-26 13:48:00,root,192.168.1.20,login_failed,/secure/payroll.csv,SELECT * FROM users;
+2025-03-26 16:05:00,employee7,8.8.8.8,file_access,,DROP TABLE transactions;
+2025-03-26 00:40:00,guest99,192.168.1.20,file_access,/db_dump.sql,
+2025-03-26 05:16:00,user123,192.168.1.10,network_request,,
+2025-03-26 22:35:00,guest99,10.0.0.5,database_query,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 16:16:00,user123,192.168.1.10,database_query,/logs/system.log,DROP TABLE transactions;
+2025-03-26 20:21:00,user123,192.168.1.10,file_access,,
+2025-03-26 21:21:00,root,10.0.0.5,network_request,/public/readme.txt,
+2025-03-26 05:44:00,user123,10.0.0.5,login_success,,
+2025-03-26 04:46:00,employee7,10.0.0.5,login_success,/db_dump.sql,SELECT * FROM users;
+2025-03-26 05:30:00,user123,10.0.0.5,database_query,/db_dump.sql,
+2025-03-26 09:12:00,guest99,172.16.0.8,login_failed,/db_dump.sql,
+2025-03-26 22:24:00,admin42,10.0.0.5,network_request,,
+2025-03-26 13:27:00,guest99,172.16.0.8,login_success,,
+2025-03-26 08:38:00,user123,192.168.1.20,login_failed,,
+2025-03-26 05:14:00,user123,192.168.1.20,database_query,/secure/payroll.csv,
+2025-03-26 20:25:00,employee7,10.0.0.5,login_success,,
+2025-03-26 02:39:00,employee7,172.16.0.8,database_query,,
+2025-03-26 01:26:00,guest99,10.0.0.5,login_failed,,
+2025-03-26 09:15:00,admin42,8.8.8.8,login_failed,,
+2025-03-26 05:51:00,employee7,10.0.0.5,network_request,,DROP TABLE transactions;
+2025-03-26 14:26:00,guest99,8.8.8.8,database_query,/logs/system.log,
+2025-03-26 19:46:00,employee7,192.168.1.20,network_request,/secure/payroll.csv,
+2025-03-26 06:01:00,admin42,192.168.1.20,file_access,/db_dump.sql,DROP TABLE transactions;
+2025-03-26 14:06:00,user123,10.0.0.5,network_request,,SELECT * FROM users;
+2025-03-26 18:15:00,admin42,10.0.0.5,login_success,/confidential/design.pdf,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 13:24:00,user123,192.168.1.10,database_query,,
+2025-03-26 09:35:00,root,192.168.1.20,file_access,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 01:55:00,root,8.8.8.8,database_query,/secure/payroll.csv,
+2025-03-26 21:17:00,admin42,192.168.1.10,network_request,/public/readme.txt,SELECT * FROM users;
+2025-03-26 04:41:00,user123,8.8.8.8,login_failed,/secure/payroll.csv,DROP TABLE transactions;
+2025-03-26 06:57:00,guest99,192.168.1.20,login_success,,SELECT * FROM users;
+2025-03-26 21:49:00,admin42,10.0.0.5,database_query,,
+2025-03-26 07:23:00,employee7,192.168.1.20,file_access,/logs/system.log,
+2025-03-26 12:55:00,guest99,192.168.1.20,login_failed,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 09:45:00,root,172.16.0.8,login_success,,
+2025-03-26 11:47:00,guest99,8.8.8.8,network_request,/confidential/design.pdf,SELECT * FROM users;
+2025-03-26 21:23:00,root,8.8.8.8,login_success,,
+2025-03-26 06:45:00,employee7,172.16.0.8,database_query,,
+2025-03-26 07:50:00,user123,172.16.0.8,login_success,/public/readme.txt,
+2025-03-26 07:41:00,guest99,192.168.1.10,login_failed,,
+2025-03-26 11:47:00,user123,192.168.1.20,network_request,,
+2025-03-26 14:23:00,guest99,10.0.0.5,file_access,/secure/payroll.csv,
+2025-03-26 09:40:00,guest99,10.0.0.5,file_access,,
+2025-03-26 10:41:00,guest99,192.168.1.20,database_query,/confidential/design.pdf,SELECT * FROM users;
+2025-03-26 21:21:00,employee7,10.0.0.5,file_access,,
+2025-03-26 09:58:00,admin42,8.8.8.8,database_query,,
+2025-03-26 09:56:00,root,8.8.8.8,network_request,,
+2025-03-26 07:15:00,root,8.8.8.8,login_success,,
+2025-03-26 11:34:00,employee7,192.168.1.10,login_failed,,
+2025-03-26 11:14:00,admin42,192.168.1.10,login_success,/logs/system.log,DROP TABLE transactions;
+2025-03-26 10:29:00,admin42,8.8.8.8,login_failed,,
+2025-03-26 19:04:00,user123,10.0.0.5,network_request,/logs/system.log,
+2025-03-26 21:56:00,employee7,10.0.0.5,file_access,,SELECT * FROM users;
+2025-03-26 12:09:00,user123,172.16.0.8,database_query,/logs/system.log,
+2025-03-26 05:46:00,employee7,172.16.0.8,file_access,/db_dump.sql,
+2025-03-26 01:11:00,root,172.16.0.8,database_query,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 00:56:00,user123,192.168.1.10,network_request,/db_dump.sql,
+2025-03-26 02:23:00,root,8.8.8.8,file_access,/public/readme.txt,
+2025-03-26 15:59:00,admin42,8.8.8.8,database_query,,SELECT * FROM users;
+2025-03-26 08:08:00,employee7,192.168.1.10,login_success,/confidential/design.pdf,
+2025-03-26 17:40:00,guest99,8.8.8.8,file_access,/public/readme.txt,
+2025-03-26 08:11:00,admin42,10.0.0.5,database_query,/db_dump.sql,
+2025-03-26 20:48:00,admin42,8.8.8.8,login_success,,DROP TABLE transactions;
+2025-03-26 14:03:00,employee7,10.0.0.5,login_failed,/confidential/design.pdf,
+2025-03-26 01:14:00,admin42,8.8.8.8,login_success,/logs/system.log,
+2025-03-26 08:51:00,root,8.8.8.8,file_access,,
+2025-03-26 12:09:00,guest99,192.168.1.20,login_success,,
+2025-03-26 18:46:00,employee7,192.168.1.20,file_access,,
+2025-03-26 16:46:00,root,192.168.1.20,login_failed,,
+2025-03-26 05:36:00,root,192.168.1.10,file_access,/db_dump.sql,
+2025-03-26 18:41:00,guest99,192.168.1.20,file_access,/confidential/design.pdf,
+2025-03-26 05:08:00,employee7,192.168.1.10,file_access,,
+2025-03-26 05:58:00,employee7,8.8.8.8,login_success,,SELECT * FROM users;
+2025-03-26 10:15:00,root,8.8.8.8,database_query,,
+2025-03-26 11:30:00,admin42,192.168.1.20,network_request,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 17:15:00,guest99,192.168.1.10,file_access,,
+2025-03-26 00:22:00,admin42,192.168.1.10,network_request,/db_dump.sql,
+2025-03-26 11:44:00,admin42,192.168.1.10,network_request,,
+2025-03-26 20:34:00,guest99,8.8.8.8,network_request,,
+2025-03-26 21:46:00,employee7,8.8.8.8,database_query,,
+2025-03-26 12:09:00,guest99,172.16.0.8,login_failed,/confidential/design.pdf,
+2025-03-26 00:37:00,employee7,8.8.8.8,login_success,/confidential/design.pdf,
+2025-03-26 11:06:00,root,192.168.1.10,login_failed,/db_dump.sql,
+2025-03-26 03:43:00,guest99,172.16.0.8,network_request,,
+2025-03-26 10:06:00,guest99,172.16.0.8,database_query,,DROP TABLE transactions;
+2025-03-26 07:19:00,user123,10.0.0.5,login_failed,,
+2025-03-26 20:10:00,root,192.168.1.20,network_request,,
+2025-03-26 06:34:00,guest99,10.0.0.5,database_query,,
+2025-03-26 15:30:00,admin42,192.168.1.20,file_access,/confidential/design.pdf,
+2025-03-26 03:42:00,employee7,172.16.0.8,login_failed,/secure/payroll.csv,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 22:33:00,guest99,192.168.1.20,file_access,,DROP TABLE transactions;
+2025-03-26 10:12:00,admin42,192.168.1.20,login_success,/public/readme.txt,
+2025-03-26 06:09:00,user123,192.168.1.10,network_request,,
+2025-03-26 11:08:00,user123,192.168.1.10,network_request,/logs/system.log,
+2025-03-26 01:08:00,admin42,8.8.8.8,login_success,/db_dump.sql,DROP TABLE transactions;
+2025-03-26 01:30:00,root,192.168.1.10,login_failed,/db_dump.sql,
+2025-03-26 04:51:00,admin42,172.16.0.8,login_failed,/confidential/design.pdf,
+2025-03-26 23:33:00,guest99,8.8.8.8,file_access,,
+2025-03-26 19:36:00,admin42,172.16.0.8,login_success,/logs/system.log,SELECT * FROM users;
+2025-03-26 16:01:00,root,192.168.1.20,file_access,/db_dump.sql,
+2025-03-26 13:53:00,admin42,10.0.0.5,login_failed,/public/readme.txt,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 21:07:00,guest99,8.8.8.8,file_access,,
+2025-03-26 20:18:00,admin42,192.168.1.20,login_failed,,
+2025-03-26 03:04:00,guest99,10.0.0.5,login_success,/db_dump.sql,
+2025-03-26 00:47:00,employee7,8.8.8.8,database_query,,DROP TABLE transactions;
+2025-03-26 00:21:00,guest99,172.16.0.8,network_request,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 20:35:00,guest99,192.168.1.20,network_request,,
+2025-03-26 06:00:00,admin42,8.8.8.8,login_success,/db_dump.sql,
+2025-03-26 16:11:00,guest99,192.168.1.20,login_failed,,
+2025-03-26 06:19:00,admin42,192.168.1.20,login_success,,
+2025-03-26 14:36:00,user123,192.168.1.20,file_access,,SELECT * FROM users;
+2025-03-26 01:22:00,employee7,172.16.0.8,database_query,,
+2025-03-26 02:57:00,user123,172.16.0.8,login_success,,
+2025-03-26 05:56:00,admin42,8.8.8.8,network_request,,
+2025-03-26 21:02:00,employee7,8.8.8.8,login_failed,/db_dump.sql,
+2025-03-26 11:14:00,admin42,172.16.0.8,database_query,,
+2025-03-26 04:32:00,admin42,10.0.0.5,login_success,,
+2025-03-26 01:46:00,root,172.16.0.8,login_failed,,
+2025-03-26 16:29:00,guest99,192.168.1.10,network_request,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 01:03:00,root,10.0.0.5,network_request,/db_dump.sql,
+2025-03-26 12:18:00,employee7,10.0.0.5,login_success,,
+2025-03-26 14:45:00,root,192.168.1.10,login_success,/public/readme.txt,
+2025-03-26 15:50:00,guest99,172.16.0.8,login_success,/db_dump.sql,
+2025-03-26 00:58:00,employee7,8.8.8.8,login_failed,,
+2025-03-26 10:06:00,guest99,192.168.1.20,file_access,/public/readme.txt,
+2025-03-26 15:25:00,guest99,10.0.0.5,network_request,/logs/system.log,
+2025-03-26 10:32:00,guest99,172.16.0.8,login_success,,
+2025-03-26 00:48:00,employee7,192.168.1.10,login_failed,/db_dump.sql,
+2025-03-26 08:47:00,user123,192.168.1.20,network_request,/db_dump.sql,
+2025-03-26 21:13:00,root,10.0.0.5,database_query,,SELECT * FROM users;
+2025-03-26 22:48:00,admin42,192.168.1.20,login_success,/public/readme.txt,
+2025-03-26 10:24:00,root,8.8.8.8,login_success,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 17:11:00,employee7,10.0.0.5,network_request,,
+2025-03-26 05:52:00,admin42,8.8.8.8,login_failed,/secure/payroll.csv,DROP TABLE transactions;
+2025-03-26 04:34:00,root,192.168.1.10,file_access,,
+2025-03-26 08:44:00,employee7,172.16.0.8,login_failed,,
+2025-03-26 11:15:00,root,10.0.0.5,file_access,/public/readme.txt,SELECT * FROM users;
+2025-03-26 17:49:00,guest99,172.16.0.8,login_failed,/confidential/design.pdf,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 05:41:00,admin42,192.168.1.20,file_access,,
+2025-03-26 22:29:00,root,192.168.1.20,network_request,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 15:02:00,admin42,10.0.0.5,file_access,/db_dump.sql,
+2025-03-26 04:31:00,employee7,8.8.8.8,network_request,,
+2025-03-26 17:10:00,root,8.8.8.8,network_request,,
+2025-03-26 07:51:00,admin42,192.168.1.10,login_failed,/logs/system.log,
+2025-03-26 11:47:00,root,8.8.8.8,login_success,/db_dump.sql,
+2025-03-26 17:03:00,user123,192.168.1.10,database_query,/confidential/design.pdf,
+2025-03-26 11:52:00,user123,10.0.0.5,database_query,,
+2025-03-26 01:15:00,user123,8.8.8.8,database_query,/public/readme.txt,
+2025-03-26 17:00:00,root,10.0.0.5,database_query,,
+2025-03-26 18:00:00,guest99,192.168.1.20,network_request,,SELECT * FROM users;
+2025-03-26 09:00:00,root,192.168.1.10,file_access,/secure/payroll.csv,
+2025-03-26 11:55:00,root,172.16.0.8,network_request,,
+2025-03-26 03:21:00,guest99,192.168.1.20,login_failed,,
+2025-03-26 04:10:00,root,192.168.1.10,login_success,/confidential/design.pdf,
+2025-03-26 01:14:00,guest99,192.168.1.10,login_success,,
+2025-03-26 20:23:00,user123,172.16.0.8,database_query,,
+2025-03-26 20:45:00,employee7,192.168.1.20,login_failed,,
+2025-03-26 11:47:00,root,8.8.8.8,database_query,,
+2025-03-26 19:10:00,guest99,192.168.1.10,login_failed,,DROP TABLE transactions;
+2025-03-26 15:50:00,guest99,8.8.8.8,login_failed,/logs/system.log,DROP TABLE transactions;
+2025-03-26 06:33:00,admin42,192.168.1.10,login_failed,,
+2025-03-26 01:24:00,guest99,172.16.0.8,network_request,,
+2025-03-26 00:07:00,admin42,8.8.8.8,database_query,/secure/payroll.csv,
+2025-03-26 03:05:00,employee7,10.0.0.5,file_access,/secure/payroll.csv,SELECT * FROM users;
+2025-03-26 13:26:00,user123,10.0.0.5,network_request,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 02:11:00,user123,192.168.1.20,login_success,,
+2025-03-26 13:00:00,admin42,8.8.8.8,network_request,,DROP TABLE transactions;
+2025-03-26 06:31:00,root,192.168.1.20,login_failed,/db_dump.sql,
+2025-03-26 19:24:00,root,8.8.8.8,login_success,/logs/system.log,
+2025-03-26 12:50:00,employee7,192.168.1.10,file_access,/secure/payroll.csv,
+2025-03-26 09:48:00,user123,10.0.0.5,login_failed,/secure/payroll.csv,
+2025-03-26 20:33:00,employee7,10.0.0.5,login_success,/confidential/design.pdf,SELECT * FROM users;
+2025-03-26 23:51:00,user123,10.0.0.5,login_success,,
+2025-03-26 22:08:00,admin42,192.168.1.20,login_success,/logs/system.log,DROP TABLE transactions;
+2025-03-26 18:25:00,guest99,8.8.8.8,network_request,/logs/system.log,
+2025-03-26 13:33:00,root,192.168.1.20,network_request,/confidential/design.pdf,
+2025-03-26 11:56:00,guest99,192.168.1.10,database_query,,
+2025-03-26 03:18:00,root,192.168.1.20,file_access,,DROP TABLE transactions;
+2025-03-26 23:30:00,admin42,172.16.0.8,network_request,/db_dump.sql,
+2025-03-26 18:54:00,root,192.168.1.20,login_success,,
+2025-03-26 16:35:00,employee7,192.168.1.10,file_access,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 17:43:00,employee7,192.168.1.10,network_request,/logs/system.log,
+2025-03-26 13:52:00,admin42,192.168.1.10,network_request,,
+2025-03-26 23:07:00,user123,172.16.0.8,login_failed,/confidential/design.pdf,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 10:45:00,employee7,192.168.1.20,login_success,/logs/system.log,
+2025-03-26 20:48:00,root,192.168.1.20,login_success,,
+2025-03-26 04:03:00,employee7,8.8.8.8,login_success,/db_dump.sql,
+2025-03-26 09:13:00,admin42,172.16.0.8,login_failed,/public/readme.txt,SELECT * FROM users;
+2025-03-26 18:01:00,root,10.0.0.5,login_success,,
+2025-03-26 08:59:00,admin42,172.16.0.8,login_failed,/secure/payroll.csv,SELECT * FROM users;
+2025-03-26 07:16:00,user123,10.0.0.5,file_access,/public/readme.txt,
+2025-03-26 03:35:00,root,8.8.8.8,file_access,,DROP TABLE transactions;
+2025-03-26 06:43:00,guest99,192.168.1.20,login_success,/db_dump.sql,
+2025-03-26 12:31:00,root,192.168.1.10,database_query,,SELECT * FROM users;
+2025-03-26 03:02:00,user123,192.168.1.20,file_access,/secure/payroll.csv,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 20:59:00,admin42,192.168.1.20,network_request,,DROP TABLE transactions;
+2025-03-26 21:54:00,admin42,8.8.8.8,file_access,/logs/system.log,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 14:48:00,admin42,8.8.8.8,login_success,/public/readme.txt,
+2025-03-26 11:30:00,admin42,10.0.0.5,login_failed,,
+2025-03-26 23:38:00,guest99,10.0.0.5,network_request,,SELECT * FROM users;
+2025-03-26 01:03:00,employee7,192.168.1.10,login_success,/logs/system.log,
+2025-03-26 02:04:00,admin42,172.16.0.8,database_query,,
+2025-03-26 01:22:00,user123,192.168.1.20,network_request,/db_dump.sql,
+2025-03-26 14:41:00,user123,172.16.0.8,login_failed,,
+2025-03-26 02:51:00,guest99,8.8.8.8,database_query,/logs/system.log,DROP TABLE transactions;
+2025-03-26 17:20:00,guest99,192.168.1.20,file_access,/confidential/design.pdf,
+2025-03-26 14:38:00,employee7,10.0.0.5,login_success,,
+2025-03-26 14:00:00,guest99,192.168.1.20,database_query,/public/readme.txt,
+2025-03-26 18:19:00,root,10.0.0.5,file_access,,
+2025-03-26 15:13:00,guest99,172.16.0.8,login_success,,
+2025-03-26 02:52:00,employee7,10.0.0.5,file_access,/logs/system.log,
+2025-03-26 08:05:00,user123,192.168.1.20,file_access,/db_dump.sql,
+2025-03-26 06:27:00,root,192.168.1.10,file_access,,DROP TABLE transactions;
+2025-03-26 19:14:00,guest99,10.0.0.5,login_success,/confidential/design.pdf,
+2025-03-26 14:38:00,employee7,192.168.1.10,file_access,/secure/payroll.csv,
+2025-03-26 11:31:00,employee7,172.16.0.8,network_request,,
+2025-03-26 14:05:00,admin42,172.16.0.8,network_request,/logs/system.log,
+2025-03-26 19:13:00,root,8.8.8.8,login_failed,/db_dump.sql,
+2025-03-26 13:24:00,employee7,8.8.8.8,login_success,/logs/system.log,DROP TABLE transactions;
+2025-03-26 09:25:00,guest99,192.168.1.20,login_failed,,
+2025-03-26 21:33:00,guest99,10.0.0.5,network_request,/confidential/design.pdf,
+2025-03-26 11:56:00,employee7,10.0.0.5,login_failed,/secure/payroll.csv,
+2025-03-26 13:24:00,guest99,192.168.1.20,file_access,,SELECT * FROM users;
+2025-03-26 05:40:00,user123,10.0.0.5,login_success,/confidential/design.pdf,
+2025-03-26 13:53:00,employee7,192.168.1.20,database_query,/confidential/design.pdf,
+2025-03-26 04:53:00,root,192.168.1.20,database_query,,
+2025-03-26 10:26:00,guest99,192.168.1.10,file_access,,
+2025-03-26 13:51:00,user123,8.8.8.8,file_access,,DROP TABLE transactions;
+2025-03-26 19:11:00,root,192.168.1.20,network_request,/secure/payroll.csv,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 10:08:00,admin42,192.168.1.10,database_query,/public/readme.txt,
+2025-03-26 07:42:00,guest99,192.168.1.20,login_failed,/db_dump.sql,DROP TABLE transactions;
+2025-03-26 04:47:00,admin42,8.8.8.8,database_query,,
+2025-03-26 20:47:00,admin42,192.168.1.10,file_access,/logs/system.log,
+2025-03-26 01:02:00,root,172.16.0.8,login_success,/db_dump.sql,
+2025-03-26 18:04:00,root,10.0.0.5,database_query,/secure/payroll.csv,SELECT * FROM users;
+2025-03-26 14:46:00,employee7,192.168.1.20,network_request,,
+2025-03-26 09:43:00,admin42,192.168.1.20,login_success,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 19:22:00,employee7,8.8.8.8,login_success,/secure/payroll.csv,SELECT * FROM users;
+2025-03-26 22:30:00,admin42,10.0.0.5,database_query,,SELECT * FROM users;
+2025-03-26 16:53:00,guest99,192.168.1.20,database_query,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 01:16:00,admin42,192.168.1.10,file_access,/db_dump.sql,
+2025-03-26 10:44:00,employee7,192.168.1.10,login_failed,/public/readme.txt,
+2025-03-26 17:45:00,user123,172.16.0.8,login_failed,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 18:27:00,root,10.0.0.5,login_failed,/confidential/design.pdf,
+2025-03-26 19:48:00,employee7,8.8.8.8,network_request,,
+2025-03-26 03:51:00,guest99,10.0.0.5,login_success,/public/readme.txt,SELECT * FROM users;
+2025-03-26 15:41:00,user123,10.0.0.5,network_request,/confidential/design.pdf,
+2025-03-26 03:23:00,user123,192.168.1.20,login_success,,
+2025-03-26 21:13:00,guest99,192.168.1.10,login_failed,,SELECT * FROM users;
+2025-03-26 20:30:00,employee7,8.8.8.8,login_success,,
+2025-03-26 14:53:00,user123,172.16.0.8,database_query,/logs/system.log,
+2025-03-26 13:13:00,employee7,192.168.1.20,file_access,/secure/payroll.csv,
+2025-03-26 01:59:00,user123,192.168.1.10,login_failed,/secure/payroll.csv,
+2025-03-26 19:18:00,admin42,192.168.1.20,file_access,/logs/system.log,
+2025-03-26 22:14:00,admin42,192.168.1.10,network_request,/public/readme.txt,
+2025-03-26 01:46:00,employee7,10.0.0.5,login_failed,,
+2025-03-26 09:06:00,guest99,8.8.8.8,network_request,/secure/payroll.csv,
+2025-03-26 14:58:00,root,192.168.1.10,file_access,/public/readme.txt,
+2025-03-26 04:09:00,admin42,192.168.1.20,login_success,/logs/system.log,
+2025-03-26 04:53:00,admin42,8.8.8.8,network_request,/secure/payroll.csv,
+2025-03-26 20:07:00,user123,192.168.1.20,database_query,,
+2025-03-26 21:40:00,guest99,192.168.1.10,database_query,,
+2025-03-26 11:38:00,employee7,192.168.1.20,network_request,/public/readme.txt,
+2025-03-26 09:47:00,guest99,8.8.8.8,database_query,/secure/payroll.csv,
+2025-03-26 18:30:00,user123,192.168.1.10,login_success,,
+2025-03-26 12:48:00,user123,192.168.1.10,login_success,/secure/payroll.csv,DROP TABLE transactions;
+2025-03-26 03:06:00,user123,8.8.8.8,file_access,,SELECT * FROM users;
+2025-03-26 10:49:00,employee7,10.0.0.5,login_failed,,SELECT * FROM users;
+2025-03-26 07:42:00,user123,8.8.8.8,file_access,/confidential/design.pdf,
+2025-03-26 12:16:00,user123,10.0.0.5,database_query,/secure/payroll.csv,SELECT * FROM users;
+2025-03-26 08:34:00,user123,10.0.0.5,login_success,,
+2025-03-26 08:45:00,admin42,10.0.0.5,file_access,,
+2025-03-26 17:05:00,employee7,8.8.8.8,file_access,,
+2025-03-26 08:38:00,root,10.0.0.5,network_request,/db_dump.sql,
+2025-03-26 18:09:00,admin42,172.16.0.8,login_failed,/secure/payroll.csv,
+2025-03-26 13:47:00,user123,192.168.1.10,network_request,/confidential/design.pdf,
+2025-03-26 16:40:00,employee7,8.8.8.8,network_request,/logs/system.log,
+2025-03-26 12:33:00,user123,10.0.0.5,login_success,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 21:59:00,employee7,172.16.0.8,login_success,/secure/payroll.csv,
+2025-03-26 08:09:00,employee7,192.168.1.20,network_request,,
+2025-03-26 14:48:00,employee7,192.168.1.10,login_failed,,SELECT * FROM users;
+2025-03-26 18:14:00,guest99,10.0.0.5,database_query,,DROP TABLE transactions;
+2025-03-26 12:15:00,root,172.16.0.8,network_request,/secure/payroll.csv,
+2025-03-26 13:30:00,root,10.0.0.5,file_access,/confidential/design.pdf,DROP TABLE transactions;
+2025-03-26 16:27:00,root,192.168.1.10,file_access,,
+2025-03-26 21:36:00,guest99,8.8.8.8,login_success,/confidential/design.pdf,
+2025-03-26 21:40:00,admin42,192.168.1.10,login_failed,,SELECT * FROM users;
+2025-03-26 13:37:00,root,172.16.0.8,file_access,,
+2025-03-26 03:48:00,employee7,192.168.1.10,login_failed,,
+2025-03-26 07:27:00,guest99,192.168.1.20,network_request,,
+2025-03-26 19:51:00,employee7,172.16.0.8,login_success,/logs/system.log,
+2025-03-26 13:46:00,guest99,172.16.0.8,network_request,/logs/system.log,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 21:23:00,admin42,172.16.0.8,login_failed,,DROP TABLE transactions;
+2025-03-26 23:16:00,guest99,192.168.1.10,file_access,/logs/system.log,
+2025-03-26 21:10:00,employee7,192.168.1.10,file_access,/logs/system.log,
+2025-03-26 02:48:00,guest99,8.8.8.8,database_query,/secure/payroll.csv,
+2025-03-26 07:54:00,guest99,192.168.1.20,login_failed,,
+2025-03-26 20:41:00,root,192.168.1.10,login_success,,SELECT * FROM users;
+2025-03-26 18:29:00,employee7,10.0.0.5,login_success,,
+2025-03-26 06:41:00,root,192.168.1.10,network_request,/secure/payroll.csv,DROP TABLE transactions;
+2025-03-26 19:05:00,employee7,192.168.1.20,database_query,,SELECT * FROM users;
+2025-03-26 08:55:00,guest99,10.0.0.5,file_access,/confidential/design.pdf,
+2025-03-26 07:41:00,root,192.168.1.10,login_failed,,
+2025-03-26 15:03:00,guest99,10.0.0.5,file_access,,
+2025-03-26 14:34:00,guest99,10.0.0.5,login_success,,
+2025-03-26 05:50:00,employee7,192.168.1.20,login_failed,/logs/system.log,
+2025-03-26 23:41:00,guest99,172.16.0.8,login_success,/secure/payroll.csv,DROP TABLE transactions;
+2025-03-26 15:20:00,user123,192.168.1.10,network_request,,
+2025-03-26 00:41:00,admin42,172.16.0.8,network_request,/confidential/design.pdf,
+2025-03-26 07:29:00,root,192.168.1.20,login_failed,,SELECT * FROM users;
+2025-03-26 06:35:00,root,192.168.1.20,file_access,,
+2025-03-26 10:14:00,user123,192.168.1.10,database_query,/logs/system.log,SELECT * FROM users;
+2025-03-26 06:58:00,admin42,172.16.0.8,login_failed,/logs/system.log,
+2025-03-26 13:53:00,guest99,192.168.1.20,file_access,,
+2025-03-26 13:11:00,root,10.0.0.5,network_request,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 15:18:00,admin42,192.168.1.10,login_failed,/logs/system.log,
+2025-03-26 08:59:00,root,192.168.1.20,network_request,,
+2025-03-26 10:53:00,admin42,192.168.1.10,database_query,/confidential/design.pdf,
+2025-03-26 20:01:00,user123,172.16.0.8,login_success,/secure/payroll.csv,
+2025-03-26 11:09:00,user123,172.16.0.8,network_request,,
+2025-03-26 05:51:00,root,8.8.8.8,login_failed,,
+2025-03-26 11:29:00,employee7,192.168.1.20,login_success,,
+2025-03-26 06:33:00,employee7,8.8.8.8,network_request,,
+2025-03-26 03:04:00,root,172.16.0.8,file_access,,
+2025-03-26 03:26:00,admin42,192.168.1.20,file_access,,DROP TABLE transactions;
+2025-03-26 03:22:00,admin42,192.168.1.10,file_access,/db_dump.sql,
+2025-03-26 12:41:00,employee7,10.0.0.5,file_access,/confidential/design.pdf,
+2025-03-26 05:51:00,admin42,10.0.0.5,file_access,,
+2025-03-26 11:46:00,user123,192.168.1.10,login_success,/db_dump.sql,SELECT * FROM users;
+2025-03-26 08:50:00,employee7,172.16.0.8,login_success,/secure/payroll.csv,
+2025-03-26 16:52:00,guest99,8.8.8.8,file_access,/secure/payroll.csv,DROP TABLE transactions;
+2025-03-26 20:33:00,root,192.168.1.20,network_request,,
+2025-03-26 23:04:00,employee7,8.8.8.8,database_query,,
+2025-03-26 06:32:00,admin42,192.168.1.20,database_query,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 07:05:00,user123,10.0.0.5,login_failed,/logs/system.log,
+2025-03-26 16:32:00,root,172.16.0.8,login_failed,/secure/payroll.csv,
+2025-03-26 03:43:00,admin42,192.168.1.20,network_request,,SELECT * FROM users;
+2025-03-26 10:18:00,user123,192.168.1.20,network_request,,
+2025-03-26 02:31:00,admin42,8.8.8.8,database_query,/logs/system.log,SELECT * FROM users;
+2025-03-26 17:28:00,user123,172.16.0.8,login_failed,/public/readme.txt,SELECT * FROM users;
+2025-03-26 23:51:00,root,192.168.1.20,database_query,,
+2025-03-26 02:04:00,employee7,10.0.0.5,login_failed,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 09:18:00,root,192.168.1.10,login_success,/logs/system.log,
+2025-03-26 06:51:00,admin42,172.16.0.8,login_failed,/logs/system.log,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 12:51:00,user123,172.16.0.8,login_success,,
+2025-03-26 10:51:00,admin42,8.8.8.8,database_query,/logs/system.log,
+2025-03-26 20:40:00,admin42,192.168.1.10,database_query,,DROP TABLE transactions;
+2025-03-26 02:18:00,root,172.16.0.8,login_success,/confidential/design.pdf,
+2025-03-26 09:44:00,root,192.168.1.10,network_request,,
+2025-03-26 00:09:00,admin42,8.8.8.8,database_query,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 00:09:00,admin42,192.168.1.20,file_access,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 06:01:00,admin42,8.8.8.8,file_access,/confidential/design.pdf,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 17:55:00,guest99,8.8.8.8,network_request,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 08:18:00,employee7,10.0.0.5,file_access,/confidential/design.pdf,
+2025-03-26 02:22:00,employee7,192.168.1.20,login_success,/public/readme.txt,
+2025-03-26 22:31:00,root,172.16.0.8,login_success,,
+2025-03-26 04:07:00,user123,172.16.0.8,file_access,,
+2025-03-26 21:05:00,root,192.168.1.20,file_access,/db_dump.sql,
+2025-03-26 03:24:00,admin42,10.0.0.5,login_failed,/logs/system.log,DROP TABLE transactions;
+2025-03-26 07:25:00,user123,172.16.0.8,network_request,/logs/system.log,
+2025-03-26 16:37:00,employee7,8.8.8.8,login_success,,
+2025-03-26 13:52:00,admin42,192.168.1.20,login_success,/confidential/design.pdf,DROP TABLE transactions;
+2025-03-26 03:18:00,employee7,10.0.0.5,login_success,,
+2025-03-26 04:54:00,user123,192.168.1.20,database_query,/confidential/design.pdf,
+2025-03-26 01:48:00,user123,8.8.8.8,login_failed,,
+2025-03-26 12:35:00,admin42,192.168.1.20,login_failed,/secure/payroll.csv,
+2025-03-26 06:59:00,root,8.8.8.8,network_request,/secure/payroll.csv,
+2025-03-26 05:38:00,employee7,172.16.0.8,database_query,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 13:13:00,employee7,192.168.1.10,network_request,,
+2025-03-26 09:20:00,employee7,172.16.0.8,database_query,,
+2025-03-26 17:50:00,employee7,192.168.1.10,file_access,,
+2025-03-26 02:45:00,guest99,172.16.0.8,database_query,/logs/system.log,DROP TABLE transactions;
+2025-03-26 13:08:00,user123,192.168.1.20,login_success,,DROP TABLE transactions;
+2025-03-26 02:32:00,user123,10.0.0.5,login_success,/confidential/design.pdf,
+2025-03-26 10:44:00,root,172.16.0.8,login_success,/db_dump.sql,
+2025-03-26 08:02:00,root,192.168.1.20,database_query,/public/readme.txt,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 11:57:00,guest99,8.8.8.8,login_success,,
+2025-03-26 04:25:00,root,192.168.1.10,file_access,,
+2025-03-26 21:57:00,employee7,8.8.8.8,login_success,/secure/payroll.csv,DROP TABLE transactions;
+2025-03-26 12:49:00,guest99,172.16.0.8,login_failed,/public/readme.txt,
+2025-03-26 15:09:00,guest99,192.168.1.20,login_success,/public/readme.txt,
+2025-03-26 01:50:00,guest99,192.168.1.10,database_query,,
+2025-03-26 20:47:00,guest99,192.168.1.10,login_failed,/public/readme.txt,
+2025-03-26 11:23:00,user123,192.168.1.10,database_query,/public/readme.txt,
+2025-03-26 18:48:00,root,10.0.0.5,network_request,/public/readme.txt,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 14:25:00,employee7,192.168.1.20,file_access,,
+2025-03-26 21:49:00,guest99,10.0.0.5,network_request,,
+2025-03-26 22:21:00,employee7,8.8.8.8,network_request,,
+2025-03-26 21:15:00,employee7,172.16.0.8,login_success,/secure/payroll.csv,
+2025-03-26 07:14:00,admin42,172.16.0.8,login_failed,,
+2025-03-26 01:16:00,guest99,192.168.1.10,network_request,,
+2025-03-26 22:39:00,user123,192.168.1.20,login_success,,
+2025-03-26 07:06:00,employee7,172.16.0.8,login_failed,/secure/payroll.csv,
+2025-03-26 08:20:00,user123,10.0.0.5,file_access,,
+2025-03-26 03:49:00,root,192.168.1.10,file_access,,
+2025-03-26 05:09:00,guest99,192.168.1.20,file_access,/secure/payroll.csv,
+2025-03-26 13:20:00,employee7,172.16.0.8,file_access,/secure/payroll.csv,
+2025-03-26 11:22:00,root,8.8.8.8,login_failed,,
+2025-03-26 15:54:00,user123,10.0.0.5,network_request,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 12:00:00,guest99,172.16.0.8,database_query,/confidential/design.pdf,
+2025-03-26 08:39:00,guest99,192.168.1.20,network_request,/logs/system.log,
+2025-03-26 05:53:00,root,172.16.0.8,network_request,/secure/payroll.csv,
+2025-03-26 18:59:00,admin42,8.8.8.8,database_query,/confidential/design.pdf,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 08:56:00,employee7,192.168.1.20,file_access,/confidential/design.pdf,
+2025-03-26 00:40:00,employee7,192.168.1.10,login_success,,
+2025-03-26 03:07:00,root,192.168.1.20,database_query,/db_dump.sql,
+2025-03-26 00:54:00,root,192.168.1.20,network_request,,
+2025-03-26 08:29:00,root,172.16.0.8,login_failed,/logs/system.log,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 17:34:00,employee7,8.8.8.8,login_success,,
+2025-03-26 13:18:00,guest99,172.16.0.8,login_failed,,SELECT * FROM users;
+2025-03-26 15:48:00,root,192.168.1.20,login_failed,/logs/system.log,DROP TABLE transactions;
+2025-03-26 13:00:00,employee7,192.168.1.20,database_query,/db_dump.sql,
+2025-03-26 01:57:00,root,192.168.1.10,database_query,,
+2025-03-26 16:36:00,employee7,172.16.0.8,file_access,/secure/payroll.csv,
+2025-03-26 01:40:00,user123,10.0.0.5,login_success,,
+2025-03-26 12:09:00,user123,192.168.1.20,login_failed,/confidential/design.pdf,
+2025-03-26 03:45:00,root,192.168.1.10,file_access,,
+2025-03-26 08:22:00,guest99,10.0.0.5,login_success,,
+2025-03-26 11:11:00,guest99,192.168.1.10,login_failed,,SELECT * FROM users;
+2025-03-26 14:07:00,user123,172.16.0.8,file_access,/secure/payroll.csv,
+2025-03-26 04:09:00,admin42,192.168.1.10,database_query,,
+2025-03-26 22:30:00,admin42,8.8.8.8,database_query,,
+2025-03-26 05:38:00,admin42,8.8.8.8,login_success,,
+2025-03-26 19:23:00,employee7,192.168.1.20,login_failed,,
+2025-03-26 01:22:00,root,8.8.8.8,login_failed,/logs/system.log,
+2025-03-26 20:10:00,employee7,192.168.1.20,login_success,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 04:16:00,admin42,10.0.0.5,database_query,/logs/system.log,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 11:44:00,user123,172.16.0.8,login_success,/public/readme.txt,SELECT * FROM users;
+2025-03-26 07:31:00,admin42,192.168.1.20,login_failed,/public/readme.txt,
+2025-03-26 14:55:00,user123,192.168.1.10,file_access,,
+2025-03-26 07:29:00,guest99,172.16.0.8,login_failed,/confidential/design.pdf,
+2025-03-26 21:40:00,guest99,8.8.8.8,login_failed,/logs/system.log,
+2025-03-26 18:55:00,employee7,192.168.1.10,login_success,,
+2025-03-26 18:15:00,admin42,8.8.8.8,login_failed,,
+2025-03-26 19:20:00,user123,172.16.0.8,network_request,,
+2025-03-26 23:54:00,user123,192.168.1.10,login_success,,DROP TABLE transactions;
+2025-03-26 22:11:00,user123,10.0.0.5,network_request,/public/readme.txt,
+2025-03-26 13:42:00,user123,10.0.0.5,file_access,/logs/system.log,SELECT * FROM users;
+2025-03-26 19:54:00,employee7,10.0.0.5,login_success,,
+2025-03-26 21:09:00,guest99,10.0.0.5,database_query,,
+2025-03-26 19:48:00,admin42,8.8.8.8,login_failed,,
+2025-03-26 09:58:00,employee7,172.16.0.8,file_access,/secure/payroll.csv,
+2025-03-26 20:54:00,guest99,192.168.1.10,database_query,,
+2025-03-26 08:00:00,user123,192.168.1.10,network_request,/db_dump.sql,
+2025-03-26 04:12:00,guest99,172.16.0.8,login_success,/confidential/design.pdf,DROP TABLE transactions;
+2025-03-26 22:07:00,admin42,172.16.0.8,database_query,,SELECT * FROM users;
+2025-03-26 16:29:00,guest99,8.8.8.8,login_failed,,
+2025-03-26 23:05:00,admin42,10.0.0.5,network_request,/public/readme.txt,
+2025-03-26 19:31:00,admin42,172.16.0.8,file_access,/logs/system.log,
+2025-03-26 10:06:00,employee7,192.168.1.20,database_query,,
+2025-03-26 01:17:00,guest99,8.8.8.8,file_access,,
+2025-03-26 06:29:00,root,172.16.0.8,file_access,/confidential/design.pdf,
+2025-03-26 17:33:00,guest99,192.168.1.20,network_request,,
+2025-03-26 07:04:00,admin42,192.168.1.20,file_access,/public/readme.txt,
+2025-03-26 01:00:00,guest99,10.0.0.5,file_access,/secure/payroll.csv,
+2025-03-26 01:11:00,admin42,172.16.0.8,file_access,/public/readme.txt,DROP TABLE transactions;
+2025-03-26 17:31:00,admin42,192.168.1.20,database_query,/logs/system.log,
+2025-03-26 05:58:00,root,172.16.0.8,network_request,/secure/payroll.csv,
+2025-03-26 15:37:00,root,192.168.1.20,database_query,/confidential/design.pdf,
+2025-03-26 02:34:00,root,192.168.1.10,database_query,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 06:53:00,user123,192.168.1.20,login_failed,/logs/system.log,
+2025-03-26 16:15:00,admin42,172.16.0.8,database_query,/logs/system.log,SELECT * FROM users;
+2025-03-26 08:08:00,guest99,192.168.1.20,file_access,,
+2025-03-26 09:41:00,root,172.16.0.8,database_query,/confidential/design.pdf,
+2025-03-26 12:52:00,admin42,172.16.0.8,file_access,/logs/system.log,
+2025-03-26 06:33:00,user123,192.168.1.10,login_failed,,SELECT * FROM users;
+2025-03-26 01:51:00,admin42,10.0.0.5,login_failed,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 05:39:00,admin42,192.168.1.20,network_request,/secure/payroll.csv,DROP TABLE transactions;
+2025-03-26 05:23:00,user123,192.168.1.10,login_failed,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 23:41:00,user123,10.0.0.5,network_request,/logs/system.log,DROP TABLE transactions;
+2025-03-26 06:05:00,user123,10.0.0.5,database_query,,
+2025-03-26 14:25:00,root,172.16.0.8,login_failed,/db_dump.sql,
+2025-03-26 03:02:00,user123,10.0.0.5,login_failed,/public/readme.txt,
+2025-03-26 19:41:00,guest99,192.168.1.10,login_success,/logs/system.log,DROP TABLE transactions;
+2025-03-26 20:09:00,root,172.16.0.8,database_query,,
+2025-03-26 14:40:00,root,192.168.1.10,login_failed,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 20:39:00,admin42,10.0.0.5,network_request,,
+2025-03-26 15:12:00,root,172.16.0.8,login_success,,
+2025-03-26 08:44:00,guest99,172.16.0.8,database_query,,
+2025-03-26 07:28:00,root,192.168.1.20,network_request,/logs/system.log,
+2025-03-26 21:45:00,employee7,192.168.1.10,login_failed,/confidential/design.pdf,
+2025-03-26 04:01:00,guest99,8.8.8.8,login_failed,/logs/system.log,
+2025-03-26 03:20:00,root,8.8.8.8,login_success,,
+2025-03-26 01:58:00,root,192.168.1.10,network_request,,
+2025-03-26 16:16:00,root,172.16.0.8,login_failed,/logs/system.log,SELECT * FROM users;
+2025-03-26 16:02:00,root,172.16.0.8,database_query,,
+2025-03-26 16:06:00,employee7,8.8.8.8,network_request,,DROP TABLE transactions;
+2025-03-26 01:27:00,admin42,192.168.1.10,file_access,/public/readme.txt,DROP TABLE transactions;
+2025-03-26 09:22:00,employee7,192.168.1.20,database_query,,
+2025-03-26 22:56:00,user123,192.168.1.10,file_access,,SELECT * FROM users;
+2025-03-26 14:37:00,user123,8.8.8.8,file_access,,SELECT * FROM users;
+2025-03-26 07:22:00,admin42,192.168.1.20,database_query,,
+2025-03-26 04:32:00,guest99,10.0.0.5,network_request,,
+2025-03-26 01:16:00,root,192.168.1.20,network_request,,SELECT * FROM users;
+2025-03-26 21:25:00,user123,10.0.0.5,login_success,,
+2025-03-26 02:04:00,guest99,10.0.0.5,database_query,,
+2025-03-26 02:38:00,root,10.0.0.5,network_request,,
+2025-03-26 01:27:00,guest99,192.168.1.20,file_access,/secure/payroll.csv,
+2025-03-26 08:13:00,employee7,172.16.0.8,database_query,/confidential/design.pdf,
+2025-03-26 21:12:00,admin42,192.168.1.10,login_success,/confidential/design.pdf,
+2025-03-26 14:18:00,guest99,192.168.1.20,database_query,,
+2025-03-26 16:01:00,employee7,192.168.1.10,network_request,,
+2025-03-26 06:54:00,admin42,192.168.1.20,database_query,/public/readme.txt,DROP TABLE transactions;
+2025-03-26 23:40:00,root,192.168.1.10,login_failed,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 08:56:00,root,192.168.1.10,login_failed,,
+2025-03-26 01:25:00,employee7,10.0.0.5,network_request,,
+2025-03-26 01:16:00,guest99,192.168.1.20,database_query,,
+2025-03-26 09:26:00,guest99,192.168.1.20,login_failed,,SELECT * FROM users;
+2025-03-26 22:22:00,user123,10.0.0.5,login_failed,/confidential/design.pdf,SELECT * FROM users;
+2025-03-26 16:24:00,admin42,10.0.0.5,login_failed,,
+2025-03-26 02:45:00,admin42,192.168.1.20,file_access,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 05:57:00,user123,8.8.8.8,login_success,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 18:49:00,user123,10.0.0.5,network_request,/logs/system.log,SELECT * FROM users;
+2025-03-26 10:00:00,employee7,8.8.8.8,login_success,/logs/system.log,
+2025-03-26 07:54:00,employee7,172.16.0.8,login_success,,
+2025-03-26 13:45:00,admin42,8.8.8.8,network_request,,
+2025-03-26 03:13:00,guest99,10.0.0.5,database_query,,
+2025-03-26 12:43:00,admin42,172.16.0.8,login_failed,,SELECT * FROM users;
+2025-03-26 04:56:00,root,8.8.8.8,login_success,/secure/payroll.csv,
+2025-03-26 19:35:00,guest99,8.8.8.8,file_access,/db_dump.sql,
+2025-03-26 05:08:00,employee7,192.168.1.20,login_success,/public/readme.txt,
+2025-03-26 10:55:00,user123,10.0.0.5,login_failed,/public/readme.txt,
+2025-03-26 22:52:00,user123,10.0.0.5,login_failed,,
+2025-03-26 19:33:00,employee7,10.0.0.5,network_request,/logs/system.log,
+2025-03-26 06:46:00,guest99,192.168.1.20,login_success,/confidential/design.pdf,
+2025-03-26 08:49:00,employee7,8.8.8.8,login_failed,/secure/payroll.csv,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 09:35:00,root,192.168.1.10,login_failed,/db_dump.sql,
+2025-03-26 19:06:00,root,10.0.0.5,login_success,/db_dump.sql,DROP TABLE transactions;
+2025-03-26 13:21:00,root,10.0.0.5,login_success,,
+2025-03-26 14:10:00,guest99,172.16.0.8,network_request,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 18:30:00,admin42,172.16.0.8,file_access,,DROP TABLE transactions;
+2025-03-26 13:11:00,guest99,172.16.0.8,database_query,/public/readme.txt,
+2025-03-26 07:19:00,user123,8.8.8.8,file_access,,DROP TABLE transactions;
+2025-03-26 16:24:00,root,10.0.0.5,file_access,/db_dump.sql,
+2025-03-26 22:20:00,user123,192.168.1.20,login_success,/confidential/design.pdf,
+2025-03-26 14:50:00,root,10.0.0.5,file_access,,
+2025-03-26 04:44:00,root,192.168.1.10,network_request,/confidential/design.pdf,
+2025-03-26 02:54:00,user123,172.16.0.8,database_query,,
+2025-03-26 11:58:00,user123,10.0.0.5,file_access,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 11:27:00,admin42,192.168.1.10,login_failed,/secure/payroll.csv,
+2025-03-26 10:36:00,admin42,172.16.0.8,network_request,/confidential/design.pdf,
+2025-03-26 03:16:00,guest99,192.168.1.10,database_query,,DROP TABLE transactions;
+2025-03-26 06:22:00,user123,10.0.0.5,login_failed,/secure/payroll.csv,
+2025-03-26 06:24:00,employee7,192.168.1.20,login_failed,,
+2025-03-26 10:27:00,admin42,10.0.0.5,database_query,/confidential/design.pdf,DROP TABLE transactions;
+2025-03-26 03:25:00,guest99,192.168.1.10,file_access,,
+2025-03-26 11:55:00,guest99,10.0.0.5,login_success,,
+2025-03-26 17:38:00,guest99,10.0.0.5,login_failed,,
+2025-03-26 00:11:00,root,192.168.1.20,database_query,/public/readme.txt,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 10:55:00,root,172.16.0.8,login_failed,,
+2025-03-26 16:36:00,root,172.16.0.8,database_query,/secure/payroll.csv,
+2025-03-26 03:03:00,employee7,192.168.1.20,login_success,,
+2025-03-26 10:03:00,guest99,192.168.1.10,database_query,,
+2025-03-26 01:01:00,employee7,192.168.1.10,database_query,,
+2025-03-26 12:47:00,user123,192.168.1.20,login_success,,
+2025-03-26 19:23:00,employee7,192.168.1.20,network_request,,
+2025-03-26 14:59:00,admin42,192.168.1.20,file_access,,
+2025-03-26 10:58:00,user123,172.16.0.8,login_failed,,
+2025-03-26 00:19:00,guest99,10.0.0.5,database_query,,
+2025-03-26 22:54:00,root,192.168.1.20,database_query,,
+2025-03-26 22:10:00,employee7,8.8.8.8,network_request,,
+2025-03-26 06:55:00,user123,8.8.8.8,network_request,/confidential/design.pdf,SELECT * FROM users;
+2025-03-26 10:30:00,guest99,10.0.0.5,database_query,/public/readme.txt,
+2025-03-26 14:56:00,user123,192.168.1.10,login_success,,DROP TABLE transactions;
+2025-03-26 12:23:00,admin42,192.168.1.20,network_request,,
+2025-03-26 02:38:00,root,10.0.0.5,login_failed,,
+2025-03-26 13:49:00,admin42,192.168.1.10,database_query,/public/readme.txt,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 21:04:00,root,172.16.0.8,database_query,/confidential/design.pdf,
+2025-03-26 12:47:00,user123,172.16.0.8,database_query,/public/readme.txt,
+2025-03-26 17:49:00,guest99,192.168.1.20,network_request,,
+2025-03-26 01:13:00,user123,192.168.1.20,file_access,/confidential/design.pdf,DROP TABLE transactions;
+2025-03-26 01:40:00,root,10.0.0.5,login_failed,/db_dump.sql,
+2025-03-26 16:43:00,root,10.0.0.5,network_request,,
+2025-03-26 03:28:00,employee7,192.168.1.10,login_success,,
+2025-03-26 19:39:00,employee7,8.8.8.8,database_query,,
+2025-03-26 17:27:00,guest99,192.168.1.10,network_request,/secure/payroll.csv,
+2025-03-26 19:33:00,admin42,172.16.0.8,login_success,,
+2025-03-26 00:30:00,root,10.0.0.5,login_failed,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 19:06:00,employee7,192.168.1.20,database_query,/db_dump.sql,
+2025-03-26 16:16:00,guest99,10.0.0.5,login_failed,,
+2025-03-26 02:48:00,user123,192.168.1.20,login_success,,
+2025-03-26 23:30:00,admin42,10.0.0.5,file_access,,
+2025-03-26 04:24:00,admin42,192.168.1.20,file_access,,
+2025-03-26 04:33:00,employee7,192.168.1.10,file_access,,
+2025-03-26 17:16:00,user123,192.168.1.20,file_access,/public/readme.txt,
+2025-03-26 21:49:00,root,172.16.0.8,login_failed,,
+2025-03-26 18:02:00,employee7,172.16.0.8,file_access,,
+2025-03-26 09:57:00,guest99,192.168.1.20,database_query,,
+2025-03-26 21:56:00,user123,192.168.1.20,login_success,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 19:42:00,admin42,10.0.0.5,login_failed,/db_dump.sql,DROP TABLE transactions;
+2025-03-26 21:57:00,admin42,172.16.0.8,login_success,,
+2025-03-26 18:50:00,user123,192.168.1.10,login_failed,,
+2025-03-26 11:09:00,admin42,172.16.0.8,file_access,/secure/payroll.csv,
+2025-03-26 02:11:00,root,192.168.1.20,login_failed,,
+2025-03-26 00:09:00,user123,10.0.0.5,login_failed,/secure/payroll.csv,
+2025-03-26 10:32:00,root,10.0.0.5,login_failed,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 20:37:00,admin42,172.16.0.8,network_request,/public/readme.txt,
+2025-03-26 23:48:00,admin42,8.8.8.8,file_access,,
+2025-03-26 21:41:00,root,192.168.1.10,login_failed,,
+2025-03-26 10:22:00,employee7,8.8.8.8,network_request,,
+2025-03-26 05:35:00,guest99,172.16.0.8,login_failed,,DROP TABLE transactions;
+2025-03-26 08:23:00,root,8.8.8.8,file_access,,
+2025-03-26 18:47:00,admin42,192.168.1.20,file_access,/public/readme.txt,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 13:35:00,guest99,192.168.1.10,login_failed,,DROP TABLE transactions;
+2025-03-26 10:51:00,admin42,172.16.0.8,login_success,/public/readme.txt,
+2025-03-26 16:01:00,root,172.16.0.8,database_query,,
+2025-03-26 18:30:00,guest99,192.168.1.20,file_access,/logs/system.log,
+2025-03-26 13:03:00,employee7,172.16.0.8,file_access,,SELECT * FROM users;
+2025-03-26 11:59:00,root,172.16.0.8,login_success,,
+2025-03-26 22:19:00,root,192.168.1.10,login_success,/db_dump.sql,
+2025-03-26 21:55:00,root,192.168.1.10,login_success,,DROP TABLE transactions;
+2025-03-26 23:58:00,employee7,10.0.0.5,network_request,/public/readme.txt,
+2025-03-26 17:13:00,root,172.16.0.8,login_failed,/confidential/design.pdf,
+2025-03-26 14:41:00,root,10.0.0.5,database_query,,
+2025-03-26 08:01:00,admin42,10.0.0.5,network_request,/confidential/design.pdf,
+2025-03-26 10:02:00,guest99,8.8.8.8,database_query,,
+2025-03-26 15:11:00,employee7,192.168.1.20,login_success,/db_dump.sql,DROP TABLE transactions;
+2025-03-26 14:20:00,admin42,192.168.1.20,login_success,,
+2025-03-26 02:12:00,guest99,192.168.1.20,network_request,,
+2025-03-26 11:03:00,admin42,8.8.8.8,file_access,/confidential/design.pdf,
+2025-03-26 06:54:00,admin42,8.8.8.8,login_failed,/db_dump.sql,SELECT * FROM users;
+2025-03-26 10:08:00,admin42,10.0.0.5,login_failed,,
+2025-03-26 01:30:00,employee7,192.168.1.10,login_failed,,
+2025-03-26 04:48:00,root,10.0.0.5,file_access,/secure/payroll.csv,
+2025-03-26 06:23:00,user123,192.168.1.20,network_request,/db_dump.sql,
+2025-03-26 13:44:00,employee7,192.168.1.10,database_query,/logs/system.log,DROP TABLE transactions;
+2025-03-26 17:37:00,guest99,10.0.0.5,network_request,/public/readme.txt,SELECT * FROM users;
+2025-03-26 03:37:00,admin42,192.168.1.10,database_query,,SELECT * FROM users;
+2025-03-26 12:00:00,employee7,192.168.1.10,file_access,/public/readme.txt,
+2025-03-26 05:17:00,employee7,192.168.1.20,database_query,,
+2025-03-26 00:20:00,employee7,192.168.1.10,network_request,/public/readme.txt,
+2025-03-26 13:14:00,admin42,10.0.0.5,network_request,,
+2025-03-26 00:47:00,user123,192.168.1.20,database_query,,
+2025-03-26 04:02:00,user123,8.8.8.8,login_failed,,SELECT * FROM users;
+2025-03-26 05:15:00,root,172.16.0.8,network_request,,
+2025-03-26 08:48:00,admin42,172.16.0.8,database_query,/confidential/design.pdf,
+2025-03-26 15:04:00,employee7,192.168.1.20,database_query,/confidential/design.pdf,
+2025-03-26 10:03:00,guest99,8.8.8.8,database_query,,
+2025-03-26 15:21:00,root,10.0.0.5,login_success,/secure/payroll.csv,
+2025-03-26 03:03:00,root,10.0.0.5,network_request,/secure/payroll.csv,DROP TABLE transactions;
+2025-03-26 07:04:00,admin42,192.168.1.20,login_success,,
+2025-03-26 12:28:00,employee7,192.168.1.10,file_access,/logs/system.log,DROP TABLE transactions;
+2025-03-26 17:38:00,employee7,192.168.1.20,network_request,/logs/system.log,
+2025-03-26 04:56:00,root,192.168.1.10,file_access,/public/readme.txt,
+2025-03-26 05:51:00,guest99,172.16.0.8,login_failed,,
+2025-03-26 13:50:00,guest99,10.0.0.5,database_query,,
+2025-03-26 17:55:00,guest99,8.8.8.8,login_failed,,
+2025-03-26 08:44:00,root,10.0.0.5,network_request,,
+2025-03-26 02:09:00,admin42,192.168.1.20,file_access,/logs/system.log,
+2025-03-26 14:55:00,guest99,172.16.0.8,login_failed,/confidential/design.pdf,
+2025-03-26 18:35:00,root,8.8.8.8,login_failed,/logs/system.log,
+2025-03-26 04:45:00,employee7,192.168.1.10,network_request,,
+2025-03-26 00:08:00,employee7,192.168.1.20,network_request,,
+2025-03-26 00:44:00,guest99,172.16.0.8,network_request,,DROP TABLE transactions;
+2025-03-26 22:11:00,employee7,192.168.1.20,network_request,/secure/payroll.csv,
+2025-03-26 17:15:00,user123,192.168.1.20,database_query,/public/readme.txt,
+2025-03-26 22:50:00,root,192.168.1.20,login_success,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 14:28:00,user123,192.168.1.20,login_success,/db_dump.sql,
+2025-03-26 14:49:00,user123,192.168.1.10,database_query,/db_dump.sql,DROP TABLE transactions;
+2025-03-26 02:35:00,employee7,192.168.1.10,file_access,/db_dump.sql,
+2025-03-26 10:14:00,admin42,10.0.0.5,login_failed,,
+2025-03-26 03:34:00,admin42,8.8.8.8,network_request,/secure/payroll.csv,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 03:22:00,root,192.168.1.20,login_success,,SELECT * FROM users;
+2025-03-26 22:22:00,admin42,192.168.1.20,login_success,,
+2025-03-26 07:46:00,employee7,192.168.1.10,network_request,,
+2025-03-26 16:09:00,root,192.168.1.20,login_success,,
+2025-03-26 07:42:00,employee7,172.16.0.8,login_success,/db_dump.sql,
+2025-03-26 01:08:00,admin42,192.168.1.10,network_request,,
+2025-03-26 05:24:00,employee7,8.8.8.8,file_access,/logs/system.log,
+2025-03-26 19:00:00,employee7,192.168.1.20,login_failed,,
+2025-03-26 20:50:00,employee7,192.168.1.20,login_success,/public/readme.txt,
+2025-03-26 12:32:00,employee7,172.16.0.8,database_query,/confidential/design.pdf,
+2025-03-26 12:14:00,user123,172.16.0.8,login_success,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 07:10:00,root,10.0.0.5,login_failed,,
+2025-03-26 12:37:00,root,192.168.1.10,database_query,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 11:01:00,guest99,192.168.1.20,login_success,,
+2025-03-26 13:45:00,user123,8.8.8.8,network_request,,
+2025-03-26 07:20:00,admin42,192.168.1.20,database_query,,
+2025-03-26 14:49:00,employee7,192.168.1.20,file_access,/secure/payroll.csv,
+2025-03-26 07:38:00,user123,172.16.0.8,login_failed,,
+2025-03-26 14:30:00,guest99,192.168.1.10,login_success,/logs/system.log,
+2025-03-26 18:20:00,admin42,192.168.1.10,file_access,/public/readme.txt,
+2025-03-26 22:30:00,guest99,192.168.1.10,database_query,/confidential/design.pdf,DROP TABLE transactions;
+2025-03-26 23:12:00,admin42,10.0.0.5,database_query,/public/readme.txt,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 01:47:00,user123,192.168.1.20,network_request,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 05:31:00,user123,192.168.1.10,file_access,,SELECT * FROM users;
+2025-03-26 23:55:00,user123,172.16.0.8,database_query,/logs/system.log,DROP TABLE transactions;
+2025-03-26 21:28:00,user123,192.168.1.10,database_query,/confidential/design.pdf,
+2025-03-26 08:40:00,guest99,172.16.0.8,login_success,,
+2025-03-26 03:39:00,employee7,172.16.0.8,network_request,,
+2025-03-26 01:20:00,admin42,10.0.0.5,file_access,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 12:21:00,user123,8.8.8.8,network_request,,
+2025-03-26 22:24:00,user123,192.168.1.10,login_success,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 05:17:00,guest99,172.16.0.8,network_request,/public/readme.txt,
+2025-03-26 11:26:00,guest99,10.0.0.5,network_request,/secure/payroll.csv,
+2025-03-26 13:12:00,employee7,10.0.0.5,login_success,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 08:23:00,employee7,8.8.8.8,login_success,/confidential/design.pdf,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 20:51:00,admin42,172.16.0.8,login_success,/secure/payroll.csv,
+2025-03-26 00:10:00,admin42,192.168.1.10,database_query,/secure/payroll.csv,
+2025-03-26 15:05:00,root,192.168.1.10,login_failed,/confidential/design.pdf,
+2025-03-26 22:32:00,employee7,192.168.1.20,login_success,,SELECT * FROM users;
+2025-03-26 02:56:00,admin42,8.8.8.8,database_query,,
+2025-03-26 04:53:00,root,192.168.1.20,login_failed,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 11:57:00,user123,10.0.0.5,file_access,,
+2025-03-26 17:48:00,admin42,8.8.8.8,login_success,,
+2025-03-26 23:41:00,employee7,172.16.0.8,login_success,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 18:41:00,employee7,172.16.0.8,database_query,,
+2025-03-26 06:38:00,admin42,10.0.0.5,login_success,,
+2025-03-26 09:09:00,guest99,192.168.1.10,database_query,,DROP TABLE transactions;
+2025-03-26 12:40:00,employee7,192.168.1.20,login_failed,/secure/payroll.csv,
+2025-03-26 16:29:00,user123,192.168.1.10,database_query,,DROP TABLE transactions;
+2025-03-26 08:17:00,admin42,172.16.0.8,login_success,/db_dump.sql,
+2025-03-26 17:49:00,employee7,10.0.0.5,file_access,,SELECT * FROM users;
+2025-03-26 17:08:00,employee7,8.8.8.8,file_access,,
+2025-03-26 22:21:00,user123,10.0.0.5,network_request,/public/readme.txt,
+2025-03-26 07:00:00,admin42,192.168.1.10,login_success,,
+2025-03-26 12:58:00,admin42,10.0.0.5,network_request,,
+2025-03-26 18:22:00,admin42,172.16.0.8,network_request,,
+2025-03-26 05:07:00,guest99,172.16.0.8,login_success,/secure/payroll.csv,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 21:26:00,employee7,10.0.0.5,network_request,/public/readme.txt,
+2025-03-26 01:04:00,admin42,8.8.8.8,login_failed,,
+2025-03-26 18:00:00,user123,10.0.0.5,file_access,,
+2025-03-26 10:05:00,user123,8.8.8.8,file_access,,
+2025-03-26 06:10:00,admin42,192.168.1.10,login_success,/public/readme.txt,
+2025-03-26 01:24:00,employee7,10.0.0.5,file_access,/confidential/design.pdf,
+2025-03-26 07:18:00,admin42,192.168.1.10,database_query,,
+2025-03-26 07:10:00,user123,192.168.1.10,login_success,,
+2025-03-26 02:57:00,admin42,10.0.0.5,network_request,/db_dump.sql,
+2025-03-26 03:35:00,employee7,172.16.0.8,file_access,,
+2025-03-26 21:36:00,employee7,192.168.1.10,file_access,/secure/payroll.csv,
+2025-03-26 16:13:00,guest99,8.8.8.8,network_request,/confidential/design.pdf,DROP TABLE transactions;
+2025-03-26 04:23:00,guest99,172.16.0.8,database_query,,
+2025-03-26 16:07:00,user123,192.168.1.20,network_request,,
+2025-03-26 01:46:00,root,172.16.0.8,network_request,,
+2025-03-26 18:47:00,root,10.0.0.5,database_query,,
+2025-03-26 06:25:00,root,172.16.0.8,file_access,/secure/payroll.csv,DROP TABLE transactions;
+2025-03-26 17:10:00,root,8.8.8.8,login_success,/confidential/design.pdf,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 20:50:00,admin42,10.0.0.5,database_query,,
+2025-03-26 20:02:00,admin42,192.168.1.10,file_access,,
+2025-03-26 03:50:00,root,192.168.1.20,database_query,,
+2025-03-26 19:51:00,guest99,10.0.0.5,database_query,/secure/payroll.csv,
+2025-03-26 10:21:00,user123,8.8.8.8,database_query,,
+2025-03-26 01:18:00,guest99,10.0.0.5,database_query,,DROP TABLE transactions;
+2025-03-26 14:50:00,user123,192.168.1.10,login_failed,/logs/system.log,
+2025-03-26 09:09:00,guest99,192.168.1.10,login_failed,,SELECT * FROM users;
+2025-03-26 09:25:00,guest99,192.168.1.10,login_failed,,
+2025-03-26 02:53:00,admin42,192.168.1.10,network_request,/db_dump.sql,
+2025-03-26 08:30:00,employee7,10.0.0.5,login_success,,
+2025-03-26 06:59:00,guest99,192.168.1.10,login_success,/logs/system.log,
+2025-03-26 11:24:00,guest99,172.16.0.8,file_access,/public/readme.txt,
+2025-03-26 00:44:00,user123,172.16.0.8,database_query,/public/readme.txt,SELECT * FROM users;
+2025-03-26 04:19:00,root,8.8.8.8,network_request,,
+2025-03-26 00:09:00,admin42,8.8.8.8,database_query,,
+2025-03-26 21:26:00,admin42,192.168.1.20,network_request,/logs/system.log,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 18:13:00,root,172.16.0.8,database_query,/public/readme.txt,
+2025-03-26 00:20:00,user123,192.168.1.10,network_request,/secure/payroll.csv,
+2025-03-26 08:41:00,guest99,172.16.0.8,database_query,,
+2025-03-26 00:07:00,root,192.168.1.10,file_access,,
+2025-03-26 19:50:00,root,8.8.8.8,login_failed,/public/readme.txt,
+2025-03-26 19:46:00,root,10.0.0.5,database_query,,SELECT * FROM users;
+2025-03-26 23:54:00,user123,8.8.8.8,database_query,/db_dump.sql,
+2025-03-26 08:36:00,root,192.168.1.10,login_success,/logs/system.log,
+2025-03-26 17:05:00,user123,192.168.1.20,database_query,,SELECT * FROM users;
+2025-03-26 23:45:00,user123,192.168.1.20,database_query,/confidential/design.pdf,
+2025-03-26 17:55:00,root,8.8.8.8,login_failed,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 00:04:00,employee7,192.168.1.10,file_access,/confidential/design.pdf,SELECT * FROM users;
+2025-03-26 22:49:00,root,192.168.1.20,database_query,/db_dump.sql,
+2025-03-26 02:08:00,guest99,192.168.1.10,login_success,/confidential/design.pdf,
+2025-03-26 01:49:00,root,8.8.8.8,database_query,,
+2025-03-26 03:53:00,employee7,192.168.1.20,database_query,/public/readme.txt,
+2025-03-26 19:57:00,root,10.0.0.5,database_query,,
+2025-03-26 08:40:00,user123,172.16.0.8,login_success,,
+2025-03-26 09:50:00,guest99,10.0.0.5,login_failed,/public/readme.txt,
+2025-03-26 18:12:00,employee7,192.168.1.10,login_success,/secure/payroll.csv,
+2025-03-26 02:27:00,user123,10.0.0.5,network_request,,DROP TABLE transactions;
+2025-03-26 05:59:00,guest99,192.168.1.20,network_request,,
+2025-03-26 03:46:00,root,192.168.1.20,database_query,,
+2025-03-26 14:38:00,guest99,8.8.8.8,network_request,/logs/system.log,
+2025-03-26 11:41:00,user123,192.168.1.20,database_query,/secure/payroll.csv,
+2025-03-26 17:03:00,user123,10.0.0.5,login_failed,/db_dump.sql,
+2025-03-26 11:26:00,guest99,10.0.0.5,database_query,,DROP TABLE transactions;
+2025-03-26 10:52:00,root,8.8.8.8,file_access,/confidential/design.pdf,
+2025-03-26 09:56:00,user123,10.0.0.5,database_query,,
+2025-03-26 16:41:00,admin42,192.168.1.10,database_query,,
+2025-03-26 14:36:00,admin42,172.16.0.8,login_success,/logs/system.log,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 17:24:00,guest99,172.16.0.8,login_success,/db_dump.sql,DROP TABLE transactions;
+2025-03-26 01:14:00,admin42,10.0.0.5,network_request,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 12:42:00,employee7,10.0.0.5,network_request,/db_dump.sql,
+2025-03-26 22:14:00,guest99,10.0.0.5,login_failed,/logs/system.log,
+2025-03-26 03:12:00,user123,192.168.1.20,login_success,/confidential/design.pdf,
+2025-03-26 07:43:00,guest99,172.16.0.8,database_query,,
+2025-03-26 11:43:00,employee7,8.8.8.8,file_access,/confidential/design.pdf,
+2025-03-26 14:50:00,root,172.16.0.8,login_failed,/secure/payroll.csv,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 19:35:00,user123,8.8.8.8,file_access,,
+2025-03-26 01:38:00,user123,192.168.1.10,login_success,/secure/payroll.csv,
+2025-03-26 07:03:00,employee7,172.16.0.8,login_success,,
+2025-03-26 08:10:00,guest99,8.8.8.8,network_request,,
+2025-03-26 20:47:00,user123,8.8.8.8,network_request,/confidential/design.pdf,
+2025-03-26 09:29:00,root,192.168.1.10,network_request,/public/readme.txt,
+2025-03-26 17:47:00,user123,172.16.0.8,login_failed,/logs/system.log,SELECT * FROM users;
+2025-03-26 01:03:00,guest99,192.168.1.10,login_success,/logs/system.log,SELECT * FROM users;
+2025-03-26 12:41:00,admin42,172.16.0.8,login_failed,/confidential/design.pdf,
+2025-03-26 15:52:00,user123,8.8.8.8,network_request,,SELECT * FROM users;
+2025-03-26 19:22:00,admin42,172.16.0.8,network_request,/public/readme.txt,
+2025-03-26 02:13:00,user123,172.16.0.8,network_request,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 18:22:00,user123,192.168.1.20,file_access,,SELECT * FROM users;
+2025-03-26 18:51:00,employee7,10.0.0.5,database_query,/confidential/design.pdf,SELECT * FROM users;
+2025-03-26 00:30:00,employee7,8.8.8.8,file_access,,
+2025-03-26 14:41:00,guest99,172.16.0.8,login_success,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 11:42:00,admin42,172.16.0.8,file_access,,
+2025-03-26 15:58:00,admin42,10.0.0.5,login_failed,,
+2025-03-26 16:15:00,employee7,172.16.0.8,file_access,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 08:01:00,guest99,10.0.0.5,database_query,,
+2025-03-26 23:05:00,admin42,8.8.8.8,login_success,/db_dump.sql,
+2025-03-26 19:30:00,employee7,192.168.1.10,network_request,,
+2025-03-26 21:22:00,admin42,192.168.1.20,file_access,,
+2025-03-26 02:24:00,admin42,10.0.0.5,file_access,/db_dump.sql,
+2025-03-26 00:34:00,user123,8.8.8.8,file_access,/logs/system.log,
+2025-03-26 09:28:00,employee7,192.168.1.10,database_query,/db_dump.sql,SELECT * FROM users;
+2025-03-26 14:26:00,root,8.8.8.8,network_request,/public/readme.txt,
+2025-03-26 16:38:00,root,10.0.0.5,login_success,,
+2025-03-26 11:01:00,admin42,8.8.8.8,database_query,/confidential/design.pdf,
+2025-03-26 16:33:00,admin42,10.0.0.5,file_access,,
+2025-03-26 21:52:00,user123,172.16.0.8,database_query,,
+2025-03-26 13:30:00,guest99,172.16.0.8,database_query,/db_dump.sql,
+2025-03-26 14:39:00,employee7,172.16.0.8,network_request,/public/readme.txt,SELECT * FROM users;
+2025-03-26 03:01:00,guest99,172.16.0.8,database_query,,
+2025-03-26 18:12:00,guest99,10.0.0.5,login_success,/db_dump.sql,
+2025-03-26 16:43:00,user123,172.16.0.8,file_access,,SELECT * FROM users;
+2025-03-26 14:21:00,root,10.0.0.5,database_query,/secure/payroll.csv,
+2025-03-26 15:01:00,admin42,10.0.0.5,network_request,,SELECT * FROM users;
+2025-03-26 17:52:00,user123,192.168.1.10,database_query,/confidential/design.pdf,
+2025-03-26 02:49:00,guest99,172.16.0.8,login_success,,
+2025-03-26 08:45:00,guest99,192.168.1.20,network_request,/db_dump.sql,SELECT * FROM users;
+2025-03-26 04:45:00,root,10.0.0.5,network_request,/logs/system.log,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 07:03:00,guest99,10.0.0.5,network_request,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 06:22:00,user123,172.16.0.8,login_success,/db_dump.sql,
+2025-03-26 12:29:00,user123,8.8.8.8,login_success,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 00:24:00,root,172.16.0.8,database_query,,
+2025-03-26 05:16:00,admin42,10.0.0.5,login_failed,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 16:15:00,root,192.168.1.20,network_request,,
+2025-03-26 19:01:00,root,192.168.1.10,login_failed,/public/readme.txt,SELECT * FROM users;
+2025-03-26 05:26:00,root,8.8.8.8,file_access,,
+2025-03-26 14:42:00,root,192.168.1.10,login_failed,/public/readme.txt,
+2025-03-26 22:49:00,employee7,10.0.0.5,login_success,,
+2025-03-26 06:03:00,root,172.16.0.8,login_success,/logs/system.log,
+2025-03-26 11:25:00,user123,8.8.8.8,network_request,,SELECT * FROM users;
+2025-03-26 05:17:00,admin42,8.8.8.8,login_success,,
+2025-03-26 16:55:00,user123,172.16.0.8,file_access,,
+2025-03-26 18:21:00,guest99,8.8.8.8,login_failed,/secure/payroll.csv,
+2025-03-26 22:29:00,user123,10.0.0.5,network_request,,
+2025-03-26 12:48:00,admin42,192.168.1.10,database_query,,
+2025-03-26 09:04:00,root,8.8.8.8,login_success,/secure/payroll.csv,
+2025-03-26 01:19:00,employee7,8.8.8.8,database_query,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 11:09:00,admin42,10.0.0.5,network_request,/db_dump.sql,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 10:51:00,employee7,8.8.8.8,login_failed,,SELECT * FROM users;
+2025-03-26 21:07:00,guest99,172.16.0.8,file_access,/db_dump.sql,DROP TABLE transactions;
+2025-03-26 05:33:00,guest99,192.168.1.10,network_request,/secure/payroll.csv,
+2025-03-26 13:22:00,employee7,172.16.0.8,login_success,/logs/system.log,
+2025-03-26 00:20:00,admin42,192.168.1.20,network_request,,DROP TABLE transactions;
+2025-03-26 11:54:00,root,10.0.0.5,network_request,,
+2025-03-26 17:24:00,employee7,10.0.0.5,database_query,,
+2025-03-26 19:56:00,root,192.168.1.20,network_request,,
+2025-03-26 03:05:00,employee7,192.168.1.10,file_access,/confidential/design.pdf,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 00:29:00,employee7,192.168.1.20,login_failed,/secure/payroll.csv,SELECT * FROM users;
+2025-03-26 21:19:00,admin42,172.16.0.8,database_query,/secure/payroll.csv,
+2025-03-26 21:23:00,employee7,172.16.0.8,login_failed,,
+2025-03-26 19:12:00,employee7,10.0.0.5,login_success,,
+2025-03-26 12:38:00,root,10.0.0.5,login_failed,/logs/system.log,SELECT * FROM users;
+2025-03-26 22:06:00,admin42,192.168.1.20,login_failed,/public/readme.txt,
+2025-03-26 23:17:00,admin42,192.168.1.20,login_success,,DROP TABLE transactions;
+2025-03-26 20:55:00,employee7,172.16.0.8,login_success,,SELECT * FROM users;
+2025-03-26 15:46:00,employee7,192.168.1.20,database_query,,
+2025-03-26 01:41:00,admin42,10.0.0.5,login_success,,
+2025-03-26 13:30:00,guest99,172.16.0.8,database_query,/confidential/design.pdf,
+2025-03-26 21:38:00,user123,8.8.8.8,database_query,/secure/payroll.csv,
+2025-03-26 21:39:00,admin42,192.168.1.20,login_success,/public/readme.txt,
+2025-03-26 14:25:00,root,172.16.0.8,network_request,/logs/system.log,
+2025-03-26 03:29:00,employee7,8.8.8.8,database_query,/logs/system.log,
+2025-03-26 00:18:00,user123,192.168.1.20,login_success,/db_dump.sql,
+2025-03-26 07:13:00,root,8.8.8.8,file_access,,DROP TABLE transactions;
+2025-03-26 05:21:00,guest99,192.168.1.20,network_request,/public/readme.txt,
+2025-03-26 05:10:00,root,192.168.1.10,login_success,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 10:45:00,employee7,8.8.8.8,file_access,/confidential/design.pdf,
+2025-03-26 08:18:00,root,8.8.8.8,network_request,/public/readme.txt,
+2025-03-26 00:37:00,admin42,8.8.8.8,login_failed,,SELECT * FROM users;
+2025-03-26 12:50:00,employee7,172.16.0.8,login_success,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 21:41:00,root,192.168.1.20,file_access,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 21:36:00,user123,10.0.0.5,file_access,,
+2025-03-26 07:49:00,admin42,192.168.1.10,database_query,/confidential/design.pdf,
+2025-03-26 14:12:00,user123,172.16.0.8,file_access,,
+2025-03-26 07:22:00,admin42,192.168.1.20,login_success,,
+2025-03-26 01:08:00,guest99,192.168.1.20,login_success,,
+2025-03-26 11:37:00,admin42,192.168.1.10,file_access,/confidential/design.pdf,
+2025-03-26 09:55:00,root,10.0.0.5,network_request,/confidential/design.pdf,
+2025-03-26 14:31:00,employee7,172.16.0.8,login_failed,/secure/payroll.csv,SELECT * FROM users;
+2025-03-26 15:11:00,user123,10.0.0.5,file_access,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 10:57:00,employee7,192.168.1.10,login_success,/public/readme.txt,
+2025-03-26 17:07:00,employee7,192.168.1.20,database_query,/db_dump.sql,
+2025-03-26 17:21:00,user123,172.16.0.8,login_failed,,
+2025-03-26 13:06:00,employee7,192.168.1.20,login_failed,,
+2025-03-26 13:46:00,root,172.16.0.8,network_request,,
+2025-03-26 18:53:00,user123,10.0.0.5,network_request,/db_dump.sql,DROP TABLE transactions;
+2025-03-26 08:11:00,guest99,192.168.1.20,file_access,,DROP TABLE transactions;
+2025-03-26 11:43:00,admin42,192.168.1.10,login_success,/logs/system.log,
+2025-03-26 13:39:00,guest99,172.16.0.8,file_access,/logs/system.log,
+2025-03-26 16:17:00,guest99,192.168.1.20,file_access,/db_dump.sql,
+2025-03-26 19:59:00,admin42,10.0.0.5,file_access,/public/readme.txt,
+2025-03-26 01:33:00,root,192.168.1.20,login_failed,,DROP TABLE transactions;
+2025-03-26 04:47:00,root,8.8.8.8,network_request,,
+2025-03-26 10:21:00,guest99,192.168.1.20,file_access,/secure/payroll.csv,
+2025-03-26 20:37:00,root,192.168.1.10,database_query,,DROP TABLE transactions;
+2025-03-26 06:10:00,guest99,8.8.8.8,database_query,,
+2025-03-26 23:01:00,root,8.8.8.8,network_request,/db_dump.sql,SELECT * FROM users;
+2025-03-26 11:15:00,guest99,10.0.0.5,login_success,,
+2025-03-26 03:49:00,user123,172.16.0.8,login_failed,,
+2025-03-26 05:19:00,admin42,8.8.8.8,file_access,/db_dump.sql,
+2025-03-26 13:07:00,user123,8.8.8.8,database_query,,DROP TABLE transactions;
+2025-03-26 13:36:00,admin42,192.168.1.10,file_access,/secure/payroll.csv,
+2025-03-26 14:37:00,admin42,192.168.1.10,login_failed,,
+2025-03-26 00:45:00,guest99,8.8.8.8,login_success,/logs/system.log,
+2025-03-26 21:29:00,admin42,172.16.0.8,login_success,,DROP TABLE transactions;
+2025-03-26 03:50:00,guest99,172.16.0.8,file_access,/confidential/design.pdf,SELECT * FROM users;
+2025-03-26 01:39:00,guest99,172.16.0.8,file_access,,
+2025-03-26 15:28:00,root,172.16.0.8,file_access,,
+2025-03-26 11:34:00,user123,172.16.0.8,database_query,,SELECT * FROM users;
+2025-03-26 22:20:00,root,192.168.1.10,file_access,,
+2025-03-26 00:51:00,user123,8.8.8.8,file_access,/public/readme.txt,
+2025-03-26 07:38:00,root,172.16.0.8,file_access,,
+2025-03-26 18:49:00,admin42,8.8.8.8,login_failed,,
+2025-03-26 19:28:00,user123,8.8.8.8,file_access,,
+2025-03-26 15:43:00,root,192.168.1.10,database_query,,"INSERT INTO admins VALUES ('hacker', 'pass');"
+2025-03-26 06:28:00,guest99,172.16.0.8,file_access,,
+2025-03-26 17:44:00,admin42,8.8.8.8,database_query,/logs/system.log,
+2025-03-26 20:50:00,user123,192.168.1.20,login_failed,,
+2025-03-26 23:19:00,user123,172.16.0.8,network_request,/logs/system.log,

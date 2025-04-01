@@ -1,0 +1,1 @@
+# This is Project Root and Log_ingestor and Threat_analyzer are two apps in this project.
