@@ -26,8 +26,7 @@ The project is divided into the following components:
 
 1. **Clone the repository**:
    ```bash
-   git clone git@github.com:ashishkumar30/cybersecurity-threat-detection.git
-   cd cybersecurity-threat-detection
+   git clone git@github.com:ashishkumar30/cybersecurity.git
    cd cybersecurity
    ```
 2. Now you are in the project directory and these files are available here
